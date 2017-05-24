@@ -1,0 +1,22 @@
+{
+  "name": "LGBViewLib",
+  "version": "0.1.0",
+  "summary": "A short description of LGBViewLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lgb/LGBViewLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lgb": "lgb789@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lgb/LGBViewLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGBViewLib/Classes/**/*"
+}
