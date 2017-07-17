@@ -30,6 +30,8 @@
 		B288652FCF82BCE0979E259BF98CE726 /* Pods-LGBViewLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7E95CEEEE018BA3E0A127BBA08E670 /* Pods-LGBViewLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B34E111AEA2A005B14EA7104E4F65CEE /* ZADisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B729D422D8760893A46655FC6763BD9 /* ZADisplayController.m */; };
 		B69356CBE5F7E2FE218182E326CAC99E /* Pods-LGBViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A32F0671785725B4EDD281C2F26C30A1 /* Pods-LGBViewLib_Example-dummy.m */; };
+		B80BCA921F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B80BCA901F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h */; };
+		B80BCA931F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B80BCA911F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m */; };
 		B83B2B52BF3AE36DCB754F4492800AC2 /* UIView+LGBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F056F798059D543B7D9DE2D8D4D508 /* UIView+LGBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B962224D8A975DA8CBC53F48AB91B44C /* UIImage+LGBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF6CDBED770C0DC5B1096A09684277D /* UIImage+LGBImage.m */; };
 		C1741630D7A1768C3229AC3EAABB747D /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B29E13132C6476F754E7FDBAC522AE /* UIColor+iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,6 +91,8 @@
 		A44DF85E55C7A1527292B9372CFADD85 /* Pods-LGBViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A58AC904D3F3E5530BB4A5FA46F4B942 /* LGBViewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBViewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AD1287C3170A6C0CC71C08F4508999 /* UIView+LGBLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBLayout.h"; sourceTree = "<group>"; };
+		B80BCA901F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+alertBlock.h"; sourceTree = "<group>"; };
+		B80BCA911F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+alertBlock.m"; sourceTree = "<group>"; };
 		BE56445C4F736F3ECE1C4421C226896F /* UIImage+LGBImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGBImage.h"; sourceTree = "<group>"; };
 		BF3EEA29C4E3247C4227B788D6027BD5 /* UIView+LGBFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBFrame.m"; sourceTree = "<group>"; };
 		C04A44647EF12BF726F7076E82776A96 /* Pods-LGBViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				DD25034AE4E1EE685CD915543EDE1794 /* ZADisplay.m */,
 				937E3ADE9197D11DED11DB522F498684 /* ZADisplayController.h */,
 				1B729D422D8760893A46655FC6763BD9 /* ZADisplayController.m */,
+				B80BCA901F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h */,
+				B80BCA911F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 				0DACDDA3D0513281185BDA07DB52ACC6 /* LGBDefine.h in Headers */,
 				09851487989E981E585B3D1E447F04AA /* LGBHeader.h in Headers */,
 				CA624FF894DE233AF9FFE1D1DD8B6A52 /* LGBViewLib-umbrella.h in Headers */,
+				B80BCA921F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h in Headers */,
 				E5381379DAC85768FF6753EB4BE7AE36 /* UIButton+LGBButton.h in Headers */,
 				C1741630D7A1768C3229AC3EAABB747D /* UIColor+iOS7Colors.h in Headers */,
 				52F4D7B63708D0037F1ACDAD15D08CC2 /* UIImage+LGBImage.h in Headers */,
@@ -437,6 +444,7 @@
 				1DEFC09B3C023A21FDBD0342BC9FEC98 /* UIView+LGBAnimation.m in Sources */,
 				8DDCB61403D05693DA45099C413E80E1 /* UIView+LGBFrame.m in Sources */,
 				EAA6A4B301521A6ECB20A14ABCFFAC29 /* UIView+LGBLayout.m in Sources */,
+				B80BCA931F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m in Sources */,
 				AA2263B531BC0408E65A293BFCC28AFD /* ZADisplay.m in Sources */,
 				B34E111AEA2A005B14EA7104E4F65CEE /* ZADisplayController.m in Sources */,
 			);
@@ -567,6 +575,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/LGBViewLib/LGBViewLib.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = LGBViewLib;
@@ -599,6 +608,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/LGBViewLib/LGBViewLib.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = LGBViewLib;
