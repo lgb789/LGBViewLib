@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09851487989E981E585B3D1E447F04AA /* LGBHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7EA9DB8EA6844A181A30016B55F67A /* LGBHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CD65157AA0DDDE172ECC4CF642E76F8 /* UILabel+LGBLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F250726E14D197DC705780E5A5F14CDC /* UILabel+LGBLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DACDDA3D0513281185BDA07DB52ACC6 /* LGBDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC64B1BEDBC7D6F2F1F599CAD9E313 /* LGBDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F85122EE8B29EBD7E7EDB92C0735ECA /* Pods-LGBViewLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F707908BFB250B6D11953C5D840552 /* Pods-LGBViewLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1924AB8F6860F0F14C41BDD6550E572D /* UILabel+LGBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC4D2343EDF8F5285B95CFEAA56B17 /* UILabel+LGBLabel.m */; };
-		1DEFC09B3C023A21FDBD0342BC9FEC98 /* UIView+LGBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2404B3E98C5D9514CBD21764B4E47A6 /* UIView+LGBAnimation.m */; };
-		20B8577EAF44905CCD71EB38A6CAEE5C /* LGBViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF675795A55B993FF3F9C8CC1CD8CBCD /* LGBViewLib-dummy.m */; };
-		3930F963671A20E7E061F402990F0822 /* UIView+LGBLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AD1287C3170A6C0CC71C08F4508999 /* UIView+LGBLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14CFB942D66BE3F9264AE8A97395F3D7 /* UILabel+LGBLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A01F87788D80E3B6B7B9EF8A6C4D58A /* UILabel+LGBLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8691FCD3BDA15EB9AE21CAE6BA6209 /* UIView+LGBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E3585B060FB7F321A870D0E09E3CC4 /* UIView+LGBFrame.m */; };
+		2526993C90CC0827FA5888C40D167BB1 /* ZADisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DCF5B0B7C1D2F0F7A8DFCD72604E7E /* ZADisplayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9D6EECD7638EE5132095236ADD3E36 /* LGBViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF675795A55B993FF3F9C8CC1CD8CBCD /* LGBViewLib-dummy.m */; };
+		40BEB067C9DD4997576211821F73A2A2 /* ZADisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35634A6CEA541EF8DB99C0C1B07DD055 /* ZADisplayController.m */; };
+		45A5212D44B04E97421492B9E3D8DB13 /* LGBDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 282D8AB730D3FB0956F01003456B6F9C /* LGBDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48160A607BD68B9D6187684E50B9C8F6 /* Pods-LGBViewLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E982C359728F19FA6A5F98A3CF4CD49 /* Pods-LGBViewLib_Tests-dummy.m */; };
-		4B657FC72F84EF467672998CCC4CCAA8 /* UIView+LGBFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = D42B79FB22E53BBE1E312A6B771DD37D /* UIView+LGBFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE0312213711B8947DACA71E833AEB6 /* LGBViewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B733C57B923DB6F0FED36356812F18 /* LGBViewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C962A5A428BF6833956D635A5BFC0B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		52F4D7B63708D0037F1ACDAD15D08CC2 /* UIImage+LGBImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BE56445C4F736F3ECE1C4421C226896F /* UIImage+LGBImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55DB33734E9B3E36E5E9A313B41DBB37 /* UITableView+LGBCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87672B9EEBF7BB7E479C829F82F04EC1 /* UITableView+LGBCellHeight.m */; };
+		4E679AA7C8A5085A5BA0A108765C6655 /* ZADisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA907B9077E34E820A335C039E6CBAD /* ZADisplay.m */; };
+		50FBF22A6BE770EA716C6477BF2053FC /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D710911C58A8E4247161E8C54710D08 /* UIColor+iOS7Colors.m */; };
+		59E511316D5C45AC5457B8568380E705 /* UIAlertView+alertBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CBBDC0B0DACED7C4630FA69359F2AE /* UIAlertView+alertBlock.m */; };
+		5C5A6E1DD7EA198718F2ED685DD39FB6 /* UIButton+LGBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C90F3351DFFE7BE59D280BAF768B787B /* UIButton+LGBButton.m */; };
 		6044BCD5F7BE9AD6A6F4C391316139AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6832D939CC0AF44DFF94C9CE342FB442 /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E653DA1A2646357EFD509D803FE5F5A /* UIColor+iOS7Colors.m */; };
-		8C80A06333097286CAE79EDADB9C1DD9 /* UIButton+LGBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7413278ADFE097E795FC275CAE733793 /* UIButton+LGBButton.m */; };
-		8DDCB61403D05693DA45099C413E80E1 /* UIView+LGBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3EEA29C4E3247C4227B788D6027BD5 /* UIView+LGBFrame.m */; };
-		A05F8815BB4C872830D60CE7D0E250BB /* UITextView+LGBTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 737E894DC7E773119C26C888AFEC9A06 /* UITextView+LGBTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98782D097391B6904B452219AE15BFF /* UITextView+LGBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F4EDBC42D6736A2DF4A2D880B1648 /* UITextView+LGBTextView.m */; };
-		AA2263B531BC0408E65A293BFCC28AFD /* ZADisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = DD25034AE4E1EE685CD915543EDE1794 /* ZADisplay.m */; };
+		6420DD7B99113EFCE5D81E4F4971D0B6 /* UIView+LGBLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FA709AB2E289B8A94FCB2CF58ACA0E /* UIView+LGBLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0DF9131484BB9511AC1336FEA525B7 /* UIView+LGBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C77780B24F46550D18B695A7473FA35 /* UIView+LGBAnimation.m */; };
+		75C815D184F72D6DC93912A4F61E9068 /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = B16B57BF42DFE907743416D856085F43 /* UIColor+iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D20D2ACFF827780DA2A60DF5D1DEE44 /* UITextView+LGBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705AC446531DAE49568A1C59167BC66 /* UITextView+LGBTextView.m */; };
+		82268D324C92B8B084408972FE5BA795 /* UILabel+LGBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F75331592D9A5DDDE0B4E603338B71 /* UILabel+LGBLabel.m */; };
+		8E16B3073C6FA955CC774FC219E2003D /* UIAlertView+alertBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE2124E79E7562FE55FFC547B9B7C0B /* UIAlertView+alertBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB92A7C2C1BF3EA09573B613C932DA8 /* UIView+LGBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 384F8198CF687661C1CC793E79A8D1CE /* UIView+LGBLayout.m */; };
+		B25561396FFDEA3E75A18C9FE18282E9 /* LGBHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D611E100DA206F56F0705CBA5582B9B1 /* LGBHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B288652FCF82BCE0979E259BF98CE726 /* Pods-LGBViewLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7E95CEEEE018BA3E0A127BBA08E670 /* Pods-LGBViewLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B34E111AEA2A005B14EA7104E4F65CEE /* ZADisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B729D422D8760893A46655FC6763BD9 /* ZADisplayController.m */; };
 		B69356CBE5F7E2FE218182E326CAC99E /* Pods-LGBViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A32F0671785725B4EDD281C2F26C30A1 /* Pods-LGBViewLib_Example-dummy.m */; };
-		B80BCA921F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B80BCA901F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h */; };
-		B80BCA931F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B80BCA911F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m */; };
-		B83B2B52BF3AE36DCB754F4492800AC2 /* UIView+LGBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F056F798059D543B7D9DE2D8D4D508 /* UIView+LGBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B962224D8A975DA8CBC53F48AB91B44C /* UIImage+LGBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF6CDBED770C0DC5B1096A09684277D /* UIImage+LGBImage.m */; };
-		C1741630D7A1768C3229AC3EAABB747D /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B29E13132C6476F754E7FDBAC522AE /* UIColor+iOS7Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA624FF894DE233AF9FFE1D1DD8B6A52 /* LGBViewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B733C57B923DB6F0FED36356812F18 /* LGBViewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D464C453A1815B51A13C1C81CE00F3F7 /* ZADisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 128DA51A4E30AE73B07C3E07FB75644A /* ZADisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5381379DAC85768FF6753EB4BE7AE36 /* UIButton+LGBButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C3A631F6AFA7AE6D07DAC60A62FDEB /* UIButton+LGBButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7DAC8C77C4115FEAFC71F651C527954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EAA6A4B301521A6ECB20A14ABCFFAC29 /* UIView+LGBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84054ED32C888411474E428999EEA6A5 /* UIView+LGBLayout.m */; };
-		F22FF022FC9290E6F202E1CCE6572F48 /* ZADisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 937E3ADE9197D11DED11DB522F498684 /* ZADisplayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4E18C2A129C524A2D3CBF66B0CF2DB3 /* UITableView+LGBCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D9BA08B189AC41B4FBC0CB103CE2D0 /* UITableView+LGBCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B749B19599A8ED9AA6C999539258DA55 /* UIButton+LGBButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 440361AAC91B1B1A1E993C8B2BB2E3CE /* UIButton+LGBButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FA82B68809CD24D78AE78E5CDC4F75 /* UITextView+LGBTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7CB2910B1627DF7818322BD6D23CBD /* UITextView+LGBTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C499B9E6329F05AF7DA6D001BAEF0833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9B06A367C12B881239EB888B09B9E24 /* UIView+LGBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DD631B5FFBA48066B0F7339296A0B279 /* UIView+LGBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3563CF19397DD8B5709F32CB65008BA /* UITableView+LGBCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = E203B116AB16FE5215D722B177C189BD /* UITableView+LGBCellHeight.m */; };
+		E69105BEA34A4EE8265BBCECF398E209 /* ZADisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DB7A42FC369C78284A80E4C43055A4 /* ZADisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76225FDB7141963331CF1D4945AFE85 /* UITableView+LGBCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB1A42C6F38491984542CE4F7827A68 /* UITableView+LGBCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76F03F600A2D23B356F1DAADD07BA7D /* UIView+LGBFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DD31E6C4E5836C7462C5BCAE420EC70E /* UIView+LGBFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC16851AA380EC5C92A6993D8E8F6701 /* UIImage+LGBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D550195BA15C2462AEC19953C9A5 /* UIImage+LGBImage.m */; };
+		F33527733B2A0C450B68EEADBBC72176 /* UIImage+LGBImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DB5CE1D3FF4E386C13B429B6C14567 /* UIImage+LGBImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,69 +49,69 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED407E0A4D28473FF2A133AAA3AE7ECF;
+			remoteGlobalIDString = 4E35D46DB9417C97725AFD9951A0CC58;
 			remoteInfo = LGBViewLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		128DA51A4E30AE73B07C3E07FB75644A /* ZADisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZADisplay.h; sourceTree = "<group>"; };
-		14AC64B1BEDBC7D6F2F1F599CAD9E313 /* LGBDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBDefine.h; sourceTree = "<group>"; };
-		17F056F798059D543B7D9DE2D8D4D508 /* UIView+LGBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBAnimation.h"; sourceTree = "<group>"; };
+		05E3585B060FB7F321A870D0E09E3CC4 /* UIView+LGBFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBFrame.m"; sourceTree = "<group>"; };
+		1705AC446531DAE49568A1C59167BC66 /* UITextView+LGBTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LGBTextView.m"; sourceTree = "<group>"; };
 		18BF3F35DADCAC8BD9A57DE99686E5A9 /* LGBViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBViewLib.xcconfig; sourceTree = "<group>"; };
-		1B729D422D8760893A46655FC6763BD9 /* ZADisplayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZADisplayController.m; sourceTree = "<group>"; };
+		1A01F87788D80E3B6B7B9EF8A6C4D58A /* UILabel+LGBLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LGBLabel.h"; sourceTree = "<group>"; };
 		1E982C359728F19FA6A5F98A3CF4CD49 /* Pods-LGBViewLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBViewLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		22B733C57B923DB6F0FED36356812F18 /* LGBViewLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBViewLib-umbrella.h"; sourceTree = "<group>"; };
 		25F707908BFB250B6D11953C5D840552 /* Pods-LGBViewLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBViewLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		282D8AB730D3FB0956F01003456B6F9C /* LGBDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBDefine.h; sourceTree = "<group>"; };
 		2A1C707C7046A2789A012088C72A92F9 /* Pods-LGBViewLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBViewLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2BAE388046C6606F5C36C721F3D0615F /* Pods-LGBViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3DAC4D2343EDF8F5285B95CFEAA56B17 /* UILabel+LGBLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGBLabel.m"; sourceTree = "<group>"; };
-		41D9BA08B189AC41B4FBC0CB103CE2D0 /* UITableView+LGBCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+LGBCellHeight.h"; sourceTree = "<group>"; };
+		32CBBDC0B0DACED7C4630FA69359F2AE /* UIAlertView+alertBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+alertBlock.m"; sourceTree = "<group>"; };
+		35634A6CEA541EF8DB99C0C1B07DD055 /* ZADisplayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZADisplayController.m; sourceTree = "<group>"; };
+		384F8198CF687661C1CC793E79A8D1CE /* UIView+LGBLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBLayout.m"; sourceTree = "<group>"; };
+		41F75331592D9A5DDDE0B4E603338B71 /* UILabel+LGBLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGBLabel.m"; sourceTree = "<group>"; };
+		440361AAC91B1B1A1E993C8B2BB2E3CE /* UIButton+LGBButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGBButton.h"; sourceTree = "<group>"; };
 		49E7C68B4A1A25A260008B18EF1FB305 /* Pods_LGBViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBViewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D710911C58A8E4247161E8C54710D08 /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
 		528EF607319D7DDF25FAEAB1171F216A /* LGBViewLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBViewLib.modulemap; sourceTree = "<group>"; };
 		55DCDECEBAE42E0F696B40F8FC127174 /* Pods-LGBViewLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBViewLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		57B04F3E12A7EC32FA30DED84905948B /* Pods-LGBViewLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBViewLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5917BCCE683146B6D8509107A17A154A /* Pods-LGBViewLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBViewLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		64FA709AB2E289B8A94FCB2CF58ACA0E /* UIView+LGBLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBLayout.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EB1A42C6F38491984542CE4F7827A68 /* UITableView+LGBCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+LGBCellHeight.h"; sourceTree = "<group>"; };
 		71D6AC3633AAC4404E48825F2805EB85 /* Pods-LGBViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBViewLib_Example-resources.sh"; sourceTree = "<group>"; };
-		737E894DC7E773119C26C888AFEC9A06 /* UITextView+LGBTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+LGBTextView.h"; sourceTree = "<group>"; };
-		7413278ADFE097E795FC275CAE733793 /* UIButton+LGBButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGBButton.m"; sourceTree = "<group>"; };
-		76B29E13132C6476F754E7FDBAC522AE /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
 		7A16D5308A8C2DD6B0330AFF0C35C152 /* LGBViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBViewLib-prefix.pch"; sourceTree = "<group>"; };
 		7AB1A4990E5C5CB5EF431464AA26AB43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA907B9077E34E820A335C039E6CBAD /* ZADisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZADisplay.m; sourceTree = "<group>"; };
 		7E15CE1E500D361A01EBC2B4F77F73D6 /* Pods-LGBViewLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBViewLib_Tests.modulemap"; sourceTree = "<group>"; };
-		84054ED32C888411474E428999EEA6A5 /* UIView+LGBLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBLayout.m"; sourceTree = "<group>"; };
-		87672B9EEBF7BB7E479C829F82F04EC1 /* UITableView+LGBCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LGBCellHeight.m"; sourceTree = "<group>"; };
+		8C77780B24F46550D18B695A7473FA35 /* UIView+LGBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBAnimation.m"; sourceTree = "<group>"; };
 		91E0B1DBAAA313BCE73B50EBC2690E22 /* Pods-LGBViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		937E3ADE9197D11DED11DB522F498684 /* ZADisplayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZADisplayController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D7E95CEEEE018BA3E0A127BBA08E670 /* Pods-LGBViewLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBViewLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		9E653DA1A2646357EFD509D803FE5F5A /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
 		A32F0671785725B4EDD281C2F26C30A1 /* Pods-LGBViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBViewLib_Example-dummy.m"; sourceTree = "<group>"; };
 		A44DF85E55C7A1527292B9372CFADD85 /* Pods-LGBViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A58AC904D3F3E5530BB4A5FA46F4B942 /* LGBViewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBViewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8AD1287C3170A6C0CC71C08F4508999 /* UIView+LGBLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBLayout.h"; sourceTree = "<group>"; };
-		B80BCA901F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+alertBlock.h"; sourceTree = "<group>"; };
-		B80BCA911F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+alertBlock.m"; sourceTree = "<group>"; };
-		BE56445C4F736F3ECE1C4421C226896F /* UIImage+LGBImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGBImage.h"; sourceTree = "<group>"; };
-		BF3EEA29C4E3247C4227B788D6027BD5 /* UIView+LGBFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBFrame.m"; sourceTree = "<group>"; };
+		AEE2124E79E7562FE55FFC547B9B7C0B /* UIAlertView+alertBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+alertBlock.h"; sourceTree = "<group>"; };
+		B16B57BF42DFE907743416D856085F43 /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
+		B9DB5CE1D3FF4E386C13B429B6C14567 /* UIImage+LGBImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGBImage.h"; sourceTree = "<group>"; };
 		C04A44647EF12BF726F7076E82776A96 /* Pods-LGBViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C1AD9DFA2567A30E561CA129FE2009F0 /* Pods-LGBViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D09F4EDBC42D6736A2DF4A2D880B1648 /* UITextView+LGBTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LGBTextView.m"; sourceTree = "<group>"; };
-		D42B79FB22E53BBE1E312A6B771DD37D /* UIView+LGBFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBFrame.h"; sourceTree = "<group>"; };
+		C2DB7A42FC369C78284A80E4C43055A4 /* ZADisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZADisplay.h; sourceTree = "<group>"; };
+		C2DCF5B0B7C1D2F0F7A8DFCD72604E7E /* ZADisplayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZADisplayController.h; sourceTree = "<group>"; };
+		C90F3351DFFE7BE59D280BAF768B787B /* UIButton+LGBButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGBButton.m"; sourceTree = "<group>"; };
 		D4D9F724827A1B32C6CFFD46AFE2D3DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D8D550195BA15C2462AEC19953C9A5 /* UIImage+LGBImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGBImage.m"; sourceTree = "<group>"; };
+		D611E100DA206F56F0705CBA5582B9B1 /* LGBHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBHeader.h; sourceTree = "<group>"; };
 		D77478933C208A029220CCDD6E0D175E /* Pods-LGBViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD25034AE4E1EE685CD915543EDE1794 /* ZADisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZADisplay.m; sourceTree = "<group>"; };
 		DD2B6C38625E1FADE03E226DC0636479 /* Pods_LGBViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBViewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD31E6C4E5836C7462C5BCAE420EC70E /* UIView+LGBFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBFrame.h"; sourceTree = "<group>"; };
+		DD631B5FFBA48066B0F7339296A0B279 /* UIView+LGBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LGBAnimation.h"; sourceTree = "<group>"; };
 		DD83320D04CCE7761C72857DFAEC75E0 /* Pods-LGBViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF675795A55B993FF3F9C8CC1CD8CBCD /* LGBViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBViewLib-dummy.m"; sourceTree = "<group>"; };
 		DF9CB52EABD7F760BDADAF24BF3218BD /* Pods-LGBViewLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBViewLib_Example.modulemap"; sourceTree = "<group>"; };
+		E203B116AB16FE5215D722B177C189BD /* UITableView+LGBCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LGBCellHeight.m"; sourceTree = "<group>"; };
 		EC159E30AAF60FAE88769F63D3CE7D21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED7EA9DB8EA6844A181A30016B55F67A /* LGBHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGBHeader.h; sourceTree = "<group>"; };
-		F2404B3E98C5D9514CBD21764B4E47A6 /* UIView+LGBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGBAnimation.m"; sourceTree = "<group>"; };
-		F250726E14D197DC705780E5A5F14CDC /* UILabel+LGBLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LGBLabel.h"; sourceTree = "<group>"; };
-		F9C3A631F6AFA7AE6D07DAC60A62FDEB /* UIButton+LGBButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGBButton.h"; sourceTree = "<group>"; };
-		FDF6CDBED770C0DC5B1096A09684277D /* UIImage+LGBImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGBImage.m"; sourceTree = "<group>"; };
+		ED7CB2910B1627DF7818322BD6D23CBD /* UITextView+LGBTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+LGBTextView.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +123,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98A67F6C1D9C2EC9F66FF11281A4D66E /* Frameworks */ = {
+		7E2FEFDBC0BF2B1331F8097D95C698F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7DAC8C77C4115FEAFC71F651C527954 /* Foundation.framework in Frameworks */,
+				C499B9E6329F05AF7DA6D001BAEF0833 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,10 +142,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EECB5D55EBF3824D05E769A4EC698C7 /* LGBViewLib */ = {
+		37B7C8B198B1A30B86883901FF9B5E4D /* LGBViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				51C9C7AB0DC5C3CE2976B29520216F82 /* Classes */,
+				FA4192F88121871B1B9533F1A6B262F7 /* Classes */,
 			);
 			path = LGBViewLib;
 			sourceTree = "<group>";
@@ -157,39 +157,6 @@
 				B24AB4B3E584E75463846FDF29A3DE90 /* Pods-LGBViewLib_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		51C9C7AB0DC5C3CE2976B29520216F82 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				14AC64B1BEDBC7D6F2F1F599CAD9E313 /* LGBDefine.h */,
-				ED7EA9DB8EA6844A181A30016B55F67A /* LGBHeader.h */,
-				F9C3A631F6AFA7AE6D07DAC60A62FDEB /* UIButton+LGBButton.h */,
-				7413278ADFE097E795FC275CAE733793 /* UIButton+LGBButton.m */,
-				76B29E13132C6476F754E7FDBAC522AE /* UIColor+iOS7Colors.h */,
-				9E653DA1A2646357EFD509D803FE5F5A /* UIColor+iOS7Colors.m */,
-				BE56445C4F736F3ECE1C4421C226896F /* UIImage+LGBImage.h */,
-				FDF6CDBED770C0DC5B1096A09684277D /* UIImage+LGBImage.m */,
-				F250726E14D197DC705780E5A5F14CDC /* UILabel+LGBLabel.h */,
-				3DAC4D2343EDF8F5285B95CFEAA56B17 /* UILabel+LGBLabel.m */,
-				41D9BA08B189AC41B4FBC0CB103CE2D0 /* UITableView+LGBCellHeight.h */,
-				87672B9EEBF7BB7E479C829F82F04EC1 /* UITableView+LGBCellHeight.m */,
-				737E894DC7E773119C26C888AFEC9A06 /* UITextView+LGBTextView.h */,
-				D09F4EDBC42D6736A2DF4A2D880B1648 /* UITextView+LGBTextView.m */,
-				17F056F798059D543B7D9DE2D8D4D508 /* UIView+LGBAnimation.h */,
-				F2404B3E98C5D9514CBD21764B4E47A6 /* UIView+LGBAnimation.m */,
-				D42B79FB22E53BBE1E312A6B771DD37D /* UIView+LGBFrame.h */,
-				BF3EEA29C4E3247C4227B788D6027BD5 /* UIView+LGBFrame.m */,
-				A8AD1287C3170A6C0CC71C08F4508999 /* UIView+LGBLayout.h */,
-				84054ED32C888411474E428999EEA6A5 /* UIView+LGBLayout.m */,
-				128DA51A4E30AE73B07C3E07FB75644A /* ZADisplay.h */,
-				DD25034AE4E1EE685CD915543EDE1794 /* ZADisplay.m */,
-				937E3ADE9197D11DED11DB522F498684 /* ZADisplayController.h */,
-				1B729D422D8760893A46655FC6763BD9 /* ZADisplayController.m */,
-				B80BCA901F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h */,
-				B80BCA911F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		74E29F18FDF74F54348592F05D81CB3A /* Products */ = {
@@ -256,7 +223,7 @@
 		B47F4406FA227B705F1F6CCC9D2F94A0 /* LGBViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				2EECB5D55EBF3824D05E769A4EC698C7 /* LGBViewLib */,
+				37B7C8B198B1A30B86883901FF9B5E4D /* LGBViewLib */,
 				93827A6EEC47242349515D8B6FF1B1A6 /* Support Files */,
 			);
 			name = LGBViewLib;
@@ -297,36 +264,69 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FA4192F88121871B1B9533F1A6B262F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				282D8AB730D3FB0956F01003456B6F9C /* LGBDefine.h */,
+				D611E100DA206F56F0705CBA5582B9B1 /* LGBHeader.h */,
+				AEE2124E79E7562FE55FFC547B9B7C0B /* UIAlertView+alertBlock.h */,
+				32CBBDC0B0DACED7C4630FA69359F2AE /* UIAlertView+alertBlock.m */,
+				440361AAC91B1B1A1E993C8B2BB2E3CE /* UIButton+LGBButton.h */,
+				C90F3351DFFE7BE59D280BAF768B787B /* UIButton+LGBButton.m */,
+				B16B57BF42DFE907743416D856085F43 /* UIColor+iOS7Colors.h */,
+				4D710911C58A8E4247161E8C54710D08 /* UIColor+iOS7Colors.m */,
+				B9DB5CE1D3FF4E386C13B429B6C14567 /* UIImage+LGBImage.h */,
+				D5D8D550195BA15C2462AEC19953C9A5 /* UIImage+LGBImage.m */,
+				1A01F87788D80E3B6B7B9EF8A6C4D58A /* UILabel+LGBLabel.h */,
+				41F75331592D9A5DDDE0B4E603338B71 /* UILabel+LGBLabel.m */,
+				6EB1A42C6F38491984542CE4F7827A68 /* UITableView+LGBCellHeight.h */,
+				E203B116AB16FE5215D722B177C189BD /* UITableView+LGBCellHeight.m */,
+				ED7CB2910B1627DF7818322BD6D23CBD /* UITextView+LGBTextView.h */,
+				1705AC446531DAE49568A1C59167BC66 /* UITextView+LGBTextView.m */,
+				DD631B5FFBA48066B0F7339296A0B279 /* UIView+LGBAnimation.h */,
+				8C77780B24F46550D18B695A7473FA35 /* UIView+LGBAnimation.m */,
+				DD31E6C4E5836C7462C5BCAE420EC70E /* UIView+LGBFrame.h */,
+				05E3585B060FB7F321A870D0E09E3CC4 /* UIView+LGBFrame.m */,
+				64FA709AB2E289B8A94FCB2CF58ACA0E /* UIView+LGBLayout.h */,
+				384F8198CF687661C1CC793E79A8D1CE /* UIView+LGBLayout.m */,
+				C2DB7A42FC369C78284A80E4C43055A4 /* ZADisplay.h */,
+				7DA907B9077E34E820A335C039E6CBAD /* ZADisplay.m */,
+				C2DCF5B0B7C1D2F0F7A8DFCD72604E7E /* ZADisplayController.h */,
+				35634A6CEA541EF8DB99C0C1B07DD055 /* ZADisplayController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		54D9732F183E0CED736846DD1A935B66 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DACDDA3D0513281185BDA07DB52ACC6 /* LGBDefine.h in Headers */,
-				09851487989E981E585B3D1E447F04AA /* LGBHeader.h in Headers */,
-				CA624FF894DE233AF9FFE1D1DD8B6A52 /* LGBViewLib-umbrella.h in Headers */,
-				B80BCA921F1CAD2E00FE83A3 /* UIAlertView+alertBlock.h in Headers */,
-				E5381379DAC85768FF6753EB4BE7AE36 /* UIButton+LGBButton.h in Headers */,
-				C1741630D7A1768C3229AC3EAABB747D /* UIColor+iOS7Colors.h in Headers */,
-				52F4D7B63708D0037F1ACDAD15D08CC2 /* UIImage+LGBImage.h in Headers */,
-				0CD65157AA0DDDE172ECC4CF642E76F8 /* UILabel+LGBLabel.h in Headers */,
-				F4E18C2A129C524A2D3CBF66B0CF2DB3 /* UITableView+LGBCellHeight.h in Headers */,
-				A05F8815BB4C872830D60CE7D0E250BB /* UITextView+LGBTextView.h in Headers */,
-				B83B2B52BF3AE36DCB754F4492800AC2 /* UIView+LGBAnimation.h in Headers */,
-				4B657FC72F84EF467672998CCC4CCAA8 /* UIView+LGBFrame.h in Headers */,
-				3930F963671A20E7E061F402990F0822 /* UIView+LGBLayout.h in Headers */,
-				D464C453A1815B51A13C1C81CE00F3F7 /* ZADisplay.h in Headers */,
-				F22FF022FC9290E6F202E1CCE6572F48 /* ZADisplayController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A07C8352CC13D3BFDE2907BB3D1C1F53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0F85122EE8B29EBD7E7EDB92C0735ECA /* Pods-LGBViewLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B86FDBD477B048BBFB85632540EA1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A5212D44B04E97421492B9E3D8DB13 /* LGBDefine.h in Headers */,
+				B25561396FFDEA3E75A18C9FE18282E9 /* LGBHeader.h in Headers */,
+				4BE0312213711B8947DACA71E833AEB6 /* LGBViewLib-umbrella.h in Headers */,
+				8E16B3073C6FA955CC774FC219E2003D /* UIAlertView+alertBlock.h in Headers */,
+				B749B19599A8ED9AA6C999539258DA55 /* UIButton+LGBButton.h in Headers */,
+				75C815D184F72D6DC93912A4F61E9068 /* UIColor+iOS7Colors.h in Headers */,
+				F33527733B2A0C450B68EEADBBC72176 /* UIImage+LGBImage.h in Headers */,
+				14CFB942D66BE3F9264AE8A97395F3D7 /* UILabel+LGBLabel.h in Headers */,
+				E76225FDB7141963331CF1D4945AFE85 /* UITableView+LGBCellHeight.h in Headers */,
+				C3FA82B68809CD24D78AE78E5CDC4F75 /* UITextView+LGBTextView.h in Headers */,
+				C9B06A367C12B881239EB888B09B9E24 /* UIView+LGBAnimation.h in Headers */,
+				E76F03F600A2D23B356F1DAADD07BA7D /* UIView+LGBFrame.h in Headers */,
+				6420DD7B99113EFCE5D81E4F4971D0B6 /* UIView+LGBLayout.h in Headers */,
+				E69105BEA34A4EE8265BBCECF398E209 /* ZADisplay.h in Headers */,
+				2526993C90CC0827FA5888C40D167BB1 /* ZADisplayController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +341,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4E35D46DB9417C97725AFD9951A0CC58 /* LGBViewLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6608580ED67930AC293A65294DD61AB6 /* Build configuration list for PBXNativeTarget "LGBViewLib" */;
+			buildPhases = (
+				174BCB858FC474D66E03C171C2E9F854 /* Sources */,
+				7E2FEFDBC0BF2B1331F8097D95C698F2 /* Frameworks */,
+				B0B86FDBD477B048BBFB85632540EA1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBViewLib;
+			productName = LGBViewLib;
+			productReference = A58AC904D3F3E5530BB4A5FA46F4B942 /* LGBViewLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5D1674FF85D5BA47EF26D448BFC4B117 /* Pods-LGBViewLib_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0839E0856434930BEB29C9F5E00773D6 /* Build configuration list for PBXNativeTarget "Pods-LGBViewLib_Example" */;
@@ -376,23 +393,6 @@
 			productReference = 49E7C68B4A1A25A260008B18EF1FB305 /* Pods_LGBViewLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ED407E0A4D28473FF2A133AAA3AE7ECF /* LGBViewLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E07F74DE98058ABABDDEC2089A2BE29 /* Build configuration list for PBXNativeTarget "LGBViewLib" */;
-			buildPhases = (
-				9F9F0968E97D26200EBEC593C92048AD /* Sources */,
-				98A67F6C1D9C2EC9F66FF11281A4D66E /* Frameworks */,
-				54D9732F183E0CED736846DD1A935B66 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LGBViewLib;
-			productName = LGBViewLib;
-			productReference = A58AC904D3F3E5530BB4A5FA46F4B942 /* LGBViewLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -414,7 +414,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED407E0A4D28473FF2A133AAA3AE7ECF /* LGBViewLib */,
+				4E35D46DB9417C97725AFD9951A0CC58 /* LGBViewLib */,
 				5D1674FF85D5BA47EF26D448BFC4B117 /* Pods-LGBViewLib_Example */,
 				72CE5B873CF0AF21A5CFCB62BB4FF22A /* Pods-LGBViewLib_Tests */,
 			);
@@ -422,31 +422,31 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		174BCB858FC474D66E03C171C2E9F854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9D6EECD7638EE5132095236ADD3E36 /* LGBViewLib-dummy.m in Sources */,
+				59E511316D5C45AC5457B8568380E705 /* UIAlertView+alertBlock.m in Sources */,
+				5C5A6E1DD7EA198718F2ED685DD39FB6 /* UIButton+LGBButton.m in Sources */,
+				50FBF22A6BE770EA716C6477BF2053FC /* UIColor+iOS7Colors.m in Sources */,
+				EC16851AA380EC5C92A6993D8E8F6701 /* UIImage+LGBImage.m in Sources */,
+				82268D324C92B8B084408972FE5BA795 /* UILabel+LGBLabel.m in Sources */,
+				D3563CF19397DD8B5709F32CB65008BA /* UITableView+LGBCellHeight.m in Sources */,
+				7D20D2ACFF827780DA2A60DF5D1DEE44 /* UITextView+LGBTextView.m in Sources */,
+				6F0DF9131484BB9511AC1336FEA525B7 /* UIView+LGBAnimation.m in Sources */,
+				1F8691FCD3BDA15EB9AE21CAE6BA6209 /* UIView+LGBFrame.m in Sources */,
+				AAB92A7C2C1BF3EA09573B613C932DA8 /* UIView+LGBLayout.m in Sources */,
+				4E679AA7C8A5085A5BA0A108765C6655 /* ZADisplay.m in Sources */,
+				40BEB067C9DD4997576211821F73A2A2 /* ZADisplayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52FD84E6C45A91D69DBEEFBE5B208FB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48160A607BD68B9D6187684E50B9C8F6 /* Pods-LGBViewLib_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F9F0968E97D26200EBEC593C92048AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20B8577EAF44905CCD71EB38A6CAEE5C /* LGBViewLib-dummy.m in Sources */,
-				8C80A06333097286CAE79EDADB9C1DD9 /* UIButton+LGBButton.m in Sources */,
-				6832D939CC0AF44DFF94C9CE342FB442 /* UIColor+iOS7Colors.m in Sources */,
-				B962224D8A975DA8CBC53F48AB91B44C /* UIImage+LGBImage.m in Sources */,
-				1924AB8F6860F0F14C41BDD6550E572D /* UILabel+LGBLabel.m in Sources */,
-				55DB33734E9B3E36E5E9A313B41DBB37 /* UITableView+LGBCellHeight.m in Sources */,
-				A98782D097391B6904B452219AE15BFF /* UITextView+LGBTextView.m in Sources */,
-				1DEFC09B3C023A21FDBD0342BC9FEC98 /* UIView+LGBAnimation.m in Sources */,
-				8DDCB61403D05693DA45099C413E80E1 /* UIView+LGBFrame.m in Sources */,
-				EAA6A4B301521A6ECB20A14ABCFFAC29 /* UIView+LGBLayout.m in Sources */,
-				B80BCA931F1CAD2E00FE83A3 /* UIAlertView+alertBlock.m in Sources */,
-				AA2263B531BC0408E65A293BFCC28AFD /* ZADisplay.m in Sources */,
-				B34E111AEA2A005B14EA7104E4F65CEE /* ZADisplayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,13 +464,117 @@
 		BC215E22B4CB1A188B4CE5DB9FC34323 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGBViewLib;
-			target = ED407E0A4D28473FF2A133AAA3AE7ECF /* LGBViewLib */;
+			target = 4E35D46DB9417C97725AFD9951A0CC58 /* LGBViewLib */;
 			targetProxy = 6870B26002BCA7A95ED52674BE0D2BB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A5B1C694375370280830EEE819A63FB /* Debug */ = {
+		039A6D9B95B07CBCA04A53D0712526FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AD9DFA2567A30E561CA129FE2009F0 /* Pods-LGBViewLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Pods-LGBViewLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBViewLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CC131B8AF7CDF52A4058900358B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44DF85E55C7A1527292B9372CFADD85 /* Pods-LGBViewLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Pods-LGBViewLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LGBViewLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E9011823AA1EB95DA757DF05E0F0890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BF3F35DADCAC8BD9A57DE99686E5A9 /* LGBViewLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBViewLib/LGBViewLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBViewLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBViewLib/LGBViewLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGBViewLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B3CD6B1B6D3A484DE0F7FEF938C0AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BAE388046C6606F5C36C721F3D0615F /* Pods-LGBViewLib_Example.debug.xcconfig */;
 			buildSettings = {
@@ -488,7 +592,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LGBViewLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LGBViewLib_Example/Pods-LGBViewLib_Example.modulemap";
@@ -506,7 +610,51 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -546,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -554,153 +702,7 @@
 			};
 			name = Debug;
 		};
-		618E5A5487037424A97E51D6B4EA7102 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18BF3F35DADCAC8BD9A57DE99686E5A9 /* LGBViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LGBViewLib/LGBViewLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGBViewLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LGBViewLib/LGBViewLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LGBViewLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6BF1783975AC14AF72754A367B9993CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18BF3F35DADCAC8BD9A57DE99686E5A9 /* LGBViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LGBViewLib/LGBViewLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGBViewLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LGBViewLib/LGBViewLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LGBViewLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		81B3FCF7DAC8718F8D35A8045F7951F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1AD9DFA2567A30E561CA129FE2009F0 /* Pods-LGBViewLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Pods-LGBViewLib_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGBViewLib_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		88A14F4CE940FC54340ADDE0887096C7 /* Release */ = {
+		A96DB666ED052E09FF5CA57D72694DBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91E0B1DBAAA313BCE73B50EBC2690E22 /* Pods-LGBViewLib_Example.release.xcconfig */;
 			buildSettings = {
@@ -718,7 +720,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LGBViewLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LGBViewLib_Example/Pods-LGBViewLib_Example.modulemap";
@@ -736,9 +738,9 @@
 			};
 			name = Release;
 		};
-		D9597B9146A241D0EF3050199E92C55A /* Release */ = {
+		DF816734B8D35F3FE062384745DF1CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44DF85E55C7A1527292B9372CFADD85 /* Pods-LGBViewLib_Tests.release.xcconfig */;
+			baseConfigurationReference = 18BF3F35DADCAC8BD9A57DE99686E5A9 /* LGBViewLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,18 +754,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LGBViewLib/LGBViewLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBViewLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGBViewLib_Tests/Pods-LGBViewLib_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/LGBViewLib/LGBViewLib.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGBViewLib_Tests;
+				PRODUCT_NAME = LGBViewLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -778,8 +776,8 @@
 		0839E0856434930BEB29C9F5E00773D6 /* Build configuration list for PBXNativeTarget "Pods-LGBViewLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A5B1C694375370280830EEE819A63FB /* Debug */,
-				88A14F4CE940FC54340ADDE0887096C7 /* Release */,
+				2B3CD6B1B6D3A484DE0F7FEF938C0AF0 /* Debug */,
+				A96DB666ED052E09FF5CA57D72694DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -787,17 +785,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E07F74DE98058ABABDDEC2089A2BE29 /* Build configuration list for PBXNativeTarget "LGBViewLib" */ = {
+		6608580ED67930AC293A65294DD61AB6 /* Build configuration list for PBXNativeTarget "LGBViewLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BF1783975AC14AF72754A367B9993CC /* Debug */,
-				618E5A5487037424A97E51D6B4EA7102 /* Release */,
+				0E9011823AA1EB95DA757DF05E0F0890 /* Debug */,
+				DF816734B8D35F3FE062384745DF1CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -805,8 +803,8 @@
 		6EBC5BBB8B5966856F37551B1E3DF03F /* Build configuration list for PBXNativeTarget "Pods-LGBViewLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81B3FCF7DAC8718F8D35A8045F7951F5 /* Debug */,
-				D9597B9146A241D0EF3050199E92C55A /* Release */,
+				039A6D9B95B07CBCA04A53D0712526FF /* Debug */,
+				03CC131B8AF7CDF52A4058900358B9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

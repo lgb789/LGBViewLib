@@ -1,9 +1,9 @@
 {
   "name": "LGBViewLib",
-  "version": "0.1.0",
-  "summary": "A short description of LGBViewLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lgb/LGBViewLib",
+  "version": "0.1.2",
+  "summary": "LGBViewLib.",
+  "description": "一些常用宏定义、view布局、颜色、动画、view创建.",
+  "homepage": "https://github.com/lgb789/LGBViewLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "lgb": "lgb789@126.com"
   },
   "source": {
-    "git": "https://github.com/lgb/LGBViewLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/lgb789/LGBViewLib.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "LGBViewLib/Classes/**/*"
 }

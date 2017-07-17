@@ -1,5 +1,5 @@
 PODS:
-  - LGBViewLib (0.1.0)
+  - LGBViewLib (0.1.2)
 
 DEPENDENCIES:
   - LGBViewLib (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LGBViewLib: 16951dc1261917b5a51ae0007eaff9eaa0ee8fef
+  LGBViewLib: d1c33e251576fa28154b2101cdf60abf8aebefa2
 
-PODFILE CHECKSUM: 2d6b2c00bf726bdc5c8a594ad9e4d10f93ec4197
+PODFILE CHECKSUM: 3cac67169c73e3b383e898c79afda7108299a5cf
 
 COCOAPODS: 1.2.1

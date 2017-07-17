@@ -20,6 +20,7 @@
 #import "UITextView+LGBTextView.h"
 #import "UIView+LGBLayout.h"
 #import "UIView+LGBFrame.h"
+#import "UIAlertView+alertBlock.h"
 
 #import "UITableView+LGBCellHeight.h"
 

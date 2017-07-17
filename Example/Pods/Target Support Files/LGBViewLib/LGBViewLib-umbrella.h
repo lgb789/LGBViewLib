@@ -12,6 +12,7 @@
 
 #import "LGBDefine.h"
 #import "LGBHeader.h"
+#import "UIAlertView+alertBlock.h"
 #import "UIButton+LGBButton.h"
 #import "UIColor+iOS7Colors.h"
 #import "UIImage+LGBImage.h"
